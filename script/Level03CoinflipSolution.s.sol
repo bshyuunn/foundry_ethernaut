@@ -16,6 +16,8 @@ contract Player {
     }
 }
 
+// Level04CoinflipSolution contract는 하나의 contract를 만드는 것이 아니라 EOA가 할 행동을 정의해주는 것이다.
+// 따라서 올바른 uint256(blockhash(block.number - 1)) 값을 얻으려면 새로운 contract를 만들어줘야한다.
 contract Level04CoinflipSolution is Script {    
     CoinFlip coinflipinstance = CoinFlip(0x88Ca2B9396fed25D980A83330305f29E05CF841E);
 

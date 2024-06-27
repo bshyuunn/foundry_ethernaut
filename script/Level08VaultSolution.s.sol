@@ -13,6 +13,7 @@ contract Level08VaultSolution is Script {
         console.log("Before locked: ", valutInstance.locked());
 
         // cast storage 0xCEE6BC22334bA3E9CaE9fe774846Dbc295C1216B 1
+        // 이더스캔에서 변경된 state를 통해서도 쉽게 확인할 수 있다.
         valutInstance.unlock(0x412076657279207374726f6e67207365637265742070617373776f7264203a29);
 
         console.log("After locked: ", valutInstance.locked());

@@ -9,6 +9,8 @@ contract ReEntrancyAttackContract {
     Reentrance public reentranceInstance;
 
     // 0.6 버전에서는 constructor에 public을 명시해줘야한다.
+    // withdraw 등을 바로 constructor에서 실행해버리면 안된다.
+    // 왜냐하면 아직 constructor 안이라서 다른 함수들이 정의가 되지 않은 것 같다. 따라서 withdraw 함수를 따로 정의해줘야한다.
     constructor (Reentrance _reentranceInstance) payable public {
         reentranceInstance = _reentranceInstance;
         reentranceInstance.donate{value: 0.001 ether}(payable(address(this)));
