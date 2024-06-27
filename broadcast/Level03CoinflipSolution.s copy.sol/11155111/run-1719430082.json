@@ -1,0 +1,49 @@
+{
+  "transactions": [
+    {
+      "hash": "0x367f6675521f1776a17c1be757aac49b37f0cb8eace6a4bb3480fb0996bd7d98",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x88ca2b9396fed25d980a83330305f29e05cf841e",
+      "function": "flip(bool)",
+      "arguments": [
+        "false"
+      ],
+      "transaction": {
+        "from": "0xcbb0d1fcaa66d1a68c70f56afe4c31eb2df5ec6c",
+        "to": "0x88ca2b9396fed25d980a83330305f29e05cf841e",
+        "gas": "0xc21d",
+        "value": "0x0",
+        "input": "0x1d263f670000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0xeb",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0xb10e8c",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x367f6675521f1776a17c1be757aac49b37f0cb8eace6a4bb3480fb0996bd7d98",
+      "transactionIndex": "0x3d",
+      "blockHash": "0xddb24e77372afc01e69d57974879746298643332d881ac3d5b2ecb26de024b3f",
+      "blockNumber": "0x5e7e91",
+      "gasUsed": "0x84bb",
+      "effectiveGasPrice": "0xda57f735",
+      "from": "0xcbb0d1fcaa66d1a68c70f56afe4c31eb2df5ec6c",
+      "to": "0x88ca2b9396fed25d980a83330305f29e05cf841e",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1719430082,
+  "chain": 11155111,
+  "commit": "ea16dab"
+}
